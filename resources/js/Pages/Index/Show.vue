@@ -1,25 +1,17 @@
 <template>
-    <div> Index</div>
-    <Link href="/hello">Show Page</Link>
-    <div>
-        the message is {{ message }}
-    </div>
+    <div> Show</div>
+    <Link href="/">Main Page</Link>
 </template>
 
 <script setup>
 import {Link} from "@inertiajs/vue3";
-
-defineProps({
-    message: String
-})
 </script>
 
 <!--Set persistent layout if there is no default in app.js-->
 <!--<script>-->
 <!--import MainLayout from "../../Layouts/MainLayout.vue";-->
 
-<!--export default { // Make layout persistent-->
+<!--export default {-->
 <!--    layout: MainLayout-->
 <!--}-->
 <!--</script>-->
-
