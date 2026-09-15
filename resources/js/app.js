@@ -1,3 +1,5 @@
+import '../css/app.css';
+
 import {createInertiaApp} from '@inertiajs/vue3'
 import MainLayout from "./Layouts/MainLayout.vue";
 import {createApp, h} from 'vue'

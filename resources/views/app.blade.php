@@ -10,7 +10,7 @@
     <x-inertia::head/>
 </head>
 
-<body>
+<body class="bd-white dark:bg-gray-900">
 <x-inertia::app/>
 </body>
 </html>
