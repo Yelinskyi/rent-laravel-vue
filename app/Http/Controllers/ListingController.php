@@ -41,6 +41,8 @@ class ListingController extends Controller
 //        }
         Gate::authorize('view', $listing);
 
+        $listing->load('images');
+
         return inertia('Listing/Show',
             [
                 'listing' => $listing,
